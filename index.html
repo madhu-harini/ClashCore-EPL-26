@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ClashCore</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>ClashCore</h1>
+
+<p class="subtitle">
+Productivity That Adapts To Real People
+</p>
+
+<div class="topSection">
+
+<div class="box">
+
+<h2>Create Smart Schedule</h2>
+
+<select id="userType">
+<option value="">Select User Type</option>
+<option>Student</option>
+<option>Professional</option>
+<option>Freelancer</option>
+<option>Homemaker</option>
+<option>Entrepreneur</option>
+</select>
+
+<input
+type="text"
+id="taskInput"
+placeholder="Enter Task Name">
+
+<select id="priorityInput">
+<option value="">Select Priority</option>
+<option>High</option>
+<option>Medium</option>
+<option>Low</option>
+</select>
+
+<select id="timeInput">
+<option value="">Select Time Slot</option>
+<option>6AM - 7AM</option>
+<option>7AM - 8AM</option>
+<option>8AM - 9AM</option>
+<option>9AM - 10AM</option>
+<option>10AM - 11AM</option>
+</select>
+
+<button
+class="mainBtn"
+onclick="addTask()">
+Generate Smart Schedule
+</button>
+
+<button
+class="focusBtnMain"
+onclick="startFocusMode()">
+Start Focus Mode 🚀
+</button>
+
+</div>
+
+<div class="box">
+
+<h2>Adaptive AI Insights</h2>
+
+<p id="status">
+No execution risks detected.
+</p>
+
+<div class="statsGrid">
+
+<div class="statCard">
+<h3 id="score">100%</h3>
+<p>Execution Score</p>
+</div>
+
+<div class="statCard">
+<h3 id="completedCount">0</h3>
+<p>Completed</p>
+</div>
+
+<div class="statCard">
+<h3 id="missedCount">0</h3>
+<p>Missed</p>
+</div>
+
+</div>
+
+<div class="momentum" id="momentum">
+Momentum Stable 🚀
+</div>
+
+</div>
+
+</div>
+
+<div class="box">
+
+<h2>Today's Adaptive Task Grid</h2>
+
+<div class="taskGrid" id="taskGrid"></div>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
