@@ -54,4 +54,6 @@ Execution Tracking
   ↓
 
 Focus Mode
+## Home Screen
 
+![Home](home.png)
