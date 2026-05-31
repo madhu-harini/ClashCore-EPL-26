@@ -36,17 +36,22 @@ By helping students plan and follow study schedules effectively, the project enc
 User
 
 ↓
+
 Task Input
 
 ↓
+
 Conflict Detection
 
 ↓
+
 Task Management
 
 ↓
+
 Execution Tracking
 
 ↓
+
 Focus Mode
 
